@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App | Veroha Vagrecha</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌦 Weather App</h1>
+    <p>Enter a city name or use your current location to view the weather.</p>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+      <button id="locationBtn">📍 Use My Location</button>
+    </div>
+
+    <div id="weatherInfo" class="weather-card hidden">
+      <h2 id="cityName"></h2>
+      <h3 id="temp"></h3>
+      <p id="condition"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+    </div>
+
+    <p id="error" class="error"></p>
+  </div>
+</body>
+</html>
