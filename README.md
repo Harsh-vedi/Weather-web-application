@@ -30,5 +30,4 @@ A modern and responsive **Weather Application** built using **HTML, CSS, and Jav
 ## ⚙️ Setup Instructions
 
 1. **Clone this repository**
-   ```bash
-   git clone https://github.com/yourusername/weather-app.git
+ https://github.com/Harsh-vedi/Weather-web-application
